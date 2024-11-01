@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import 'menu-settings.css';
+@import 'menu-email-list.css';
+@import 'product-meta-box.css';
+@import 'list-popup.css';
+
+#woocommerce-coupon-data ul.wc-tabs li.wppc_options a:before, 
+#woocommerce-product-data ul.wc-tabs li.wppc_options a:before, 
+.woocommerce ul.wc-tabs li.wppc_options a:before{
+	font-family: Dashicons;
+	content: "\f466";
+}
+
+
+
+/* #toplevel_page_wppc_settings, */
+/* #toplevel_page_wppc_settings:hover, */
+/* #toplevel_page_wppc_settings:focus, */
+ /* #toplevel_page_wppc_settings a, */
+/* #toplevel_page_wppc_settings a:hover, */
+/* #toplevel_page_wppc_settings a:focus  */
+/* { */
+    /* background: #e77f11 !important; */
+    /* color: #fff !important; */
+/* } */
+
+/* #toplevel_page_wppc_settings a:focus div.wp-menu-image:before,  */
+/* #toplevel_page_wppc_settings .opensub div.wp-menu-image:before,  */
+/* #toplevel_page_wppc_settings :hover div.wp-menu-image:before { */
+    /* color: #fff !important; */
+/* } */
+
+
+/* #toplevel_page_wppc_settings,  */
+/* #toplevel_page_wppc_settings:hover,  */
+/* #toplevel_page_wppc_settings a:hover,  */
+/* #toplevel_page_wppc_settings a:focus,  */
+/* #toplevel_page_wppc_settings .wp-has-current-submenu { */
+    /* background: #e77f11 !important; */
+    /* color: #fff !important; */
+/* } */
+
+/* #toplevel_page_wppc_settings:hover  .wp-menu-image.dashicons-before:before, */
+/* #toplevel_page_wppc_settings:focus  .wp-menu-image.dashicons-before:before{ */
+    /* background: #e77f11 !important; */
+    /* color: #fff !important; */
+/* } */
+
+
+
+
+form.wppc_settings_form {
+    background: #fff;
+    padding: 25px;
+    border-right: 1px solid #f1f1f1;
+}
+
+.wppc_section {
+    margin: 10px 0 30px;
+    color: #565656;
+}
+
+.wppc_section .section_title {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wppc_section  .section_info {
+    margin: 15px 0;
+    color: #565656;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.wppc_section  .section_input {
+	
+}
+
+.wppc_section  .section_input input[type='text'],
+.wppc_section  .section_input input[type='email'],
+.wppc_section  .section_input select{
+    border: none;
+    box-shadow: 0 0 2px rgba(30,140,190,.8);
+	width: 220px;
+}
+
+.wppc_section .section_input .wppc_input_error {
+    border: 1px solid #cc6f0c !important;
+    box-shadow: 0 0 2px rgb(204, 111, 12) !important;
+}
+
+
+
+.wppc_section  a,
+.wppc_section  a:focus{
+    outline: none;
+    box-shadow: none;
+    color: #565656;
+}
+
+
+
+.button.button-orange{
+	background: #e77f11;
+    color: #fff;
+	transition: all ease-out 0.15s;
+	border-color: #e77f11;
+    box-shadow: 0 1px 0 #e77f11;
+}
+
+.button.button-orange:hover,.button.button-orange:active,.button.button-orange:focus{
+	background: #D54E21;
+	color: #fff;
+    border-color: #D54E21;
+    box-shadow: 0 1px 0 #D54E21;
+}
+
+
+

@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wppc_section_container{
+	overflow-y: scroll;
+	height:350px;
+}
+
+.wppc_popup_container {
+    background: none repeat scroll 0 0 rgba(134, 69, 0, 0.28);
+	display: none;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999999;
+}
+
+.wppc_popup_container .wppc_popup_box {
+	background: none repeat scroll 0 0 rgb(255, 255, 255);
+	height: auto;
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+	top: 15%;
+	width: 280px;
+    border-radius: 5px;
+	box-shadow: 0 10px 8px rgba(100, 100, 100, 0.9);
+}
+
+.wppc_popup_container .wppc_popup_box .wppc_popup_close{
+    font-size: 35px;
+    color: #3A3A36;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    cursor: pointer;
+}
+
+.wppc_popup_container .wppc_popup_box .wppc_popup_close:hover{
+    font-size: 35px;
+    color: #DD3333;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    cursor: pointer;
+}
+
+
+
+.wppc_popup_container .wppc_section .section_info,
+.wppc_popup_container .wppc_section .section_input{
+	margin-left: 10px;
+}
+
+
+.wppc_popup_container .wppc_loading{
+    font-size: 100px;
+    color: #cc6f0c;
+    text-align: center;
+    width: 100%;
+    margin: 30px 0;
+}
+
+
+.wppc_section_container::-webkit-scrollbar {
+    background-color: #cc6f0c;
+	width:8px;
+}
+.wppc_section_container::-webkit-scrollbar-track {
+    background-color: #cc6f0c;
+}
+.wppc_section_container::-webkit-scrollbar-thumb {
+	background-color: rgb(226, 170, 111);
+}
+.wppc_section_container::-webkit-scrollbar-corner {
+    background-color: #cc6f0c;
+}
+

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+form.wppc_settings_form, .wppc_help_container {
+    width: 45%;
+    float: left;
+}
+.wppc_help_container {
+    background: #fff;
+    padding: 25px;
+}
+
+.wppc_help_container  img{
+    width:100%;
+}
+
